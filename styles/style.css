@@ -1,0 +1,266 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: none;
+}
+.banner{
+    /* height: 90vh; */
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(../images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+    /* background-attachment: fixed; */
+}
+
+nav{
+    height: auto;
+    padding: 30px 10px;
+    color: white; 
+}
+.logo{
+    font-family:poppins3;
+}
+.logo span{
+    color: #0074c9;
+    font-family: poppins4;
+}
+.banner ul{
+    padding: 10px 20px;
+}
+nav li{
+    display: inline;
+    font-family:poppins2;
+    padding: 0px 20px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    
+}
+nav .buttons,.fast-Get-Started .Get-Started{
+    text-align: end;
+}
+.buttons button{
+    margin: 0px 10px;
+}
+.banner-Text{
+    padding-top: 50px;
+    color: white;
+}
+.banner-Text h1{
+    font-family: poppins6;
+    font-size: 50px;
+}
+.banner-Text p{
+    font-family: poppins3;
+    font-size: 15px;
+    color: #949494;
+}
+.btn{
+    font-family:poppins2 ;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.btn-primary{
+    background-color: #0074c9;
+}
+.loginForm{
+    height: 300px;
+    background-color: white;
+}
+.loginForm-header{
+    /* height: 50px; */
+    background: #edeff0;
+}
+.loginForm-header h3{
+    font-family:poppins2 ;
+    padding: 20px 0px;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+.steps-to-Financial-Freedom{
+    margin-bottom: 30px;
+}
+.steps-to-Financial-Freedom .shadow-sm{
+    padding: 20px;
+    margin-top: 10px;
+}
+.steps-to-Financial-Freedom h2,.things-You-Buy h2{
+    text-align: center;
+    font-family: poppins2;
+    padding: 30px 0px;
+}
+
+.steps-to-Financial-Freedom .shadow-sm h3{
+    font-size: 20px;
+    font-family:poppins4;
+    padding-bottom: 30px;
+}
+.steps-to-Financial-Freedom .shadow-sm p{
+    font-family: poppins7;
+    font-size: 15px;
+    color: #949494;
+    line-height: 25px;
+    padding-bottom: 4.5em;
+}
+.steps-to-Financial-Freedom a{
+    font-family: poppins7;
+    font-size: 15px;
+    padding-bottom: 2em;
+}
+.steps-to-Financial-Freedom span{
+    padding-left: 20px;
+}
+.fast-Get-Started{
+    background-color: #0074c9;
+    color: white;
+}
+.fast-Get-Started h2, .Explanation-Section h2{
+    /* font-size: 20px; */
+    font-family:poppins4;
+    padding-top: 20px;
+}
+.fast-Get-Started p,.Explanation-Section p{
+    font-family:poppins7;
+}
+.Get-Started{
+    /* vertical-align: middle */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.fast-Get-Started .btn-primary{
+    padding: 15px 30px;
+    background-color: white;
+    color: black;   
+}
+.Explanation-Section{
+    padding: 50px 0px;
+}
+.Explanation-SubSection{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.Explanation-Section h2{
+    padding: 10px 0px;
+}
+.Explanation-Section p{
+    padding: 20px 0px;
+}
+.currency-Image{
+    max-width: 100%;
+}
+.Gray-bg{
+    background-color: #f2f2f2;
+}
+.things-You-Buy{
+    background-color: #0074c9;
+}
+.things-You-Buy .container{
+    width: 70%;
+}
+.things-You-Buy h5{
+    font-size: 18px;
+    font-family:poppins4;
+}
+.things-You-Buy h2{
+    /* font-size: 25px; */
+    /* font-family:poppins2; */
+    /* text-align: center; */
+    color: white;
+}
+.things-You-Buy p{
+    font-family: poppins7;
+    font-size:15px;
+}
+.things-You-Buy .fa{
+    color: #0074c9;
+    font-size: 50px;
+    /* font-weight: 400; */
+    margin-bottom: 20px;
+}
+footer{
+    padding: 50px 0px;
+}
+footer h4{
+    font-family: poppins2;
+}
+footer a, footer p{
+    color: black;
+    font-family: poppins7;
+    font-size: 15px;
+}
+.login-SideBar{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(../images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 155px 0px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    
+}
+
+.side .logo{
+    position: fixed;
+    z-index: 999;
+    color: white;
+    top: 20px;
+    left: 20px;
+    width: 100%;
+}
+.Welcome-text{
+    padding: 70px 70px;
+}
+.Welcome-text h2{
+    font-family: poppins1;
+    font-size: 40px;
+    /* text-align: center; */
+}
+.Welcome-text p, .form p{
+    font-family: poppins7;
+    padding: 20px ;
+    text-align: center;
+}
+.form{
+    padding: 70px;
+}
+
+.form p{
+   padding:0px 0px 10px; 
+}
+.form h2{
+    text-align: center;
+    font-family: poppins1;
+    padding: 5px 10px;
+}
+form p.small{
+    text-align: left;
+    padding-top: 10px;
+    cursor: pointer;
+}
+form span{
+    color: #0074c9;
+}
+@media (max-width:750px) {
+    .login-SideBar{
+        display: none;
+    }
+    .form{
+        padding:30px
+    }
+    .side .logo{
+        background-color: black;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        opacity: 0.8;
+    }
+}
