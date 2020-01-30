@@ -187,9 +187,6 @@ a.btn{
     font-family:poppins4;
 }
 .things-You-Buy h2{
-    /* font-size: 25px; */
-    /* font-family:poppins2; */
-    /* text-align: center; */
     color: white;
 }
 .things-You-Buy p{
@@ -214,15 +211,17 @@ footer a, footer p{
     font-size: 15px;
 }
 .login-SideBar{
+    position: fixed;
     width: 100%;
     background:linear-gradient(to top, rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(../images/banner.jpg);
     background-position: center center;
     background-size: cover;
+    height: 100vh;
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
     padding: 155px 0px;
     text-align: center;
-    color: white;
-    position: fixed;
-    
+    color: white; 
 }
 
 .side .logo{
