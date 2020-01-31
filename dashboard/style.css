@@ -72,6 +72,15 @@ body{
     transition: all 0.3s ease;
     /* margin: 0px; */
 }
+.addButton{
+    text-align: end;
+    font-family: poppins2;
+}
+.add-btn{
+    background-color: #0074c9;
+    color: #ffffff;
+    font-size: 14px;
+}
 .active{
     margin-left: -260px;
 }
@@ -132,6 +141,9 @@ body{
 }
 .fa-exchange-alt{
     color: #2E8CEA;
+}
+.fa-plus{
+    color: #0074c9;
 }
 .table{
     background-color: #ffffff;
