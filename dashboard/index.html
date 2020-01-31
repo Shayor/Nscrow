@@ -110,36 +110,96 @@
                             <th scope="col">Date</th>
                             <th scope="col">Partner</th>
                             <th scope="col">Amount</th>
+                            <th scope="col">Actions</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
                             <td scope="row">Hp Pavillion 2015</td>
-                            <td><span class="badge badge-completed">Completed</span></td>
+                            <td><span class="badge badge-completed"data-toggle="tooltip" data-placement="right" title="Done with transaction">Completed</span></td>
                             <td>2018-13-01</td>
                             <td>John Smith</td>
                             <td>456 USD</td>
+                            <td>
+                                
+                            </td>
                           </tr>
                           <tr>
                             <td scope="row">Hp Pavillion 2015</td>
-                            <td><span class="badge badge-processing">Processing</span></td>
+                            <td><span class="badge badge-processing">Buyer to agree</span></td>
                             <td>2018-13-01</td>
                             <td>John Smith</td>
                             <td>456 USD</td>
+                            <td>
+                                <span class="danger">Cancel</span>
+                                <span class="message">Message</span>
+                            </td>
                           </tr>
                           <tr>
                             <td scope="row">Hp Pavillion 2015</td>
-                            <td><span class="badge badge-cancelled">Cancelled</span></td>
+                            <td><span class="badge badge-waiting">Waiting for deposit</span></td>
                             <td>2018-13-01</td>
                             <td>John Smith</td>
                             <td>456 USD</td>
+                            <td>
+                                <span class="danger">Cancel</span>
+                                <span class="message">Message</span>
+                            </td>
                           </tr>
                           <tr>
                             <td scope="row">Hp Pavillion 2015</td>
-                            <td><span class="badge badge-draft">Drafted</span></td>
+                            <td><span class="badge badge-completed">Funds deposited</span></td>
                             <td>2018-13-01</td>
                             <td>John Smith</td>
                             <td>456 USD</td>
+                            <td>
+                                <span class="warning">Request fund</span>
+                                <span class="danger">Cancel</span>
+                                <span class="message">Message</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td scope="row">Hp Pavillion 2015</td>
+                            <td><span class="badge badge-cancelled">Cancellation requested</span></td>
+                            <td>2018-13-01</td>
+                            <td>John Smith</td>
+                            <td>456 USD</td>
+                            <td>
+                                <span class="success">Agree</span>
+                                <span class="danger">Decline</span>
+                                <span class="message">Message</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td scope="row">Hp Pavillion 2015</td>
+                            <td><span class="badge badge-waiting">Fund Requested</span></td>
+                            <td>2018-13-01</td>
+                            <td>John Smith</td>
+                            <td>456 USD</td>
+                            <td>
+                                <span class="danger">Cancel</span>
+                                <span class="message">Message</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td scope="row">Hp Pavillion 2015</td>
+                            <td><span class="badge badge-completed">Fund Received</span></td>
+                            <td>2018-13-01</td>
+                            <td>John Smith</td>
+                            <td>456 USD</td>
+                            <td>
+                                <span class="message">Message</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td scope="row">Hp Pavillion 2015</td>
+                            <td><span class="badge badge-completed">Funds sent to bank</span></td>
+                            <td>2018-13-01</td>
+                            <td>John Smith</td>
+                            <td>456 USD</td>
+                            <td>
+                                <span class="message">Message Nscrow</span>
+                            </td>
                           </tr>
                         </tbody>
                     </table>
@@ -149,13 +209,7 @@
     </div>
     <script src="../js/jquery.min.js"></script>
     <script src="../libraries/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('.menu').on('click',function(){
-                $(".sidebar").toggleClass('active')
-                $(".mainContent").toggleClass("active-content")
-			});
-        })
-    </script>
+    <script src="../libraries/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

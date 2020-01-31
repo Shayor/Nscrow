@@ -148,12 +148,14 @@ body{
 .table{
     background-color: #ffffff;
 }
+
 /* .Transaction{
     padding: 20px 0px;
 } */
 .badge{
     color: #ffffff;
     padding: 5px;
+    cursor: pointer;
 }
 .badge-completed{
     background-color: #40B33F;
@@ -166,6 +168,26 @@ body{
 }
 .badge-draft{
     background-color: #29514C;
+}
+.badge-waiting{
+    background-color:  #ffe087;
+}
+.danger{
+    color: #FF0000;
+}
+.warning{
+    color: #FFA100;
+}
+.success{
+    color: #40B33F;
+}
+.message{
+    color: #29514C;
+}
+.danger,.warning,.success,.message{
+    font-size: 12px;
+    padding: 0px 5px;
+    cursor: pointer;
 }
 @media(max-width:768px){
     .sidebar{
