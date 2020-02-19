@@ -49,6 +49,9 @@ body{
 .sidebarContent li{
     padding: 15px 0px 15px 25px;
 }
+.sidebarContent li:hover{
+    background-color: #000000;
+}
 .sidebarContent a{
     color: #ffffff;
     font-family: poppins3;
@@ -66,7 +69,7 @@ body{
 }
 .mainContent{
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     background-color: #eef2f5;
     padding-left: 250px;
     transition: all 0.3s ease;
@@ -148,6 +151,10 @@ body{
 .table{
     background-color: #ffffff;
 }
+.table tr:hover{
+    background-color: #eef2f5;
+    cursor: pointer;
+}
 
 /* .Transaction{
     padding: 20px 0px;
@@ -174,19 +181,28 @@ body{
 }
 .danger{
     color: #FF0000;
+    border: 1px solid #FF0000;
+    border-radius: 10px;
+    /* padding: 2px 20px; */
 }
 .warning{
     color: #FFA100;
+    border: 1px solid #FFA100;
+    border-radius: 10px;
 }
 .success{
     color: #40B33F;
+    border: 1px solid #40b334;
+    border-radius: 10px;
 }
 .message{
     color: #29514C;
+    border: 1px solid #29514c;
+    border-radius: 10px;
 }
 .danger,.warning,.success,.message{
     font-size: 12px;
-    padding: 0px 5px;
+    padding: 2px 10px;
     cursor: pointer;
 }
 @media(max-width:768px){

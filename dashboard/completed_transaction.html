@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../libraries/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../libraries/fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="stylesheet" href="../styles/font.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="profile">
+                <img src="../images/face.jpg" alt="" class="face">
+                <h5>Ogunlade O.J <span class="fa fa-pen"></span></h5>
+            </div>
+            <div class="sidebarContent">
+                <ul>
+                    <li><a href="index.html">
+                        <span class="fa fa-tachometer-alt"></span> 
+                        Dashboard</a></li>
+                    <li><a href="all_transaction.html">
+                        <span class="fa fa-exchange-alt"></span> 
+                        All Transactions</a></li>
+                    <li class="active-Sidebar"><a href="completed_transaction.html">
+                        <span class="fa fa-check"></span> 
+                        Completed Transactions</a></li>
+                    <li><a href="processing_transaction.html">
+                        <span class="fa fa-spinner"></span> 
+                        Processing Transactions</a></li>
+                    <li><a href="#">
+                        <span class="fa fa-times"></span> 
+                        Cancelled Transactions</a></li>
+                    <li><a href="#">
+                        <span class="fa fa-save"></span> 
+                        Drafts</a></li>
+                    <li><a href="#">
+                        <span class="fa fa-plus"></span> 
+                        Add Transactions</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mainContent">
+            <div class="container-fluid header shadow-sm">
+                <div class="row">
+                    <div class="col-md-2 col-6">
+                        <span class="fa fa-bars menu"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- <input type="text" name="" id=""> -->
+                    </div>
+                    <div class="col-md-4 addButton col-6">
+                        <a href="#" class="btn add-btn">Add Transactions </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container transaction">
+                <h5>Completed Transactions</h5>
+                <hr class="line">
+                <div class="container table-responsive">
+                    <table class="table">
+                        <thead class="thead-light">
+                          <tr>
+                            <th scope="col">Product</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Partner</th>
+                            <th scope="col">Amount</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td scope="row">Hp Pavillion 2015</td>
+                            <td><span class="badge badge-completed"data-toggle="tooltip" data-placement="right" title="Done with transaction">Completed</span></td>
+                            <td>2018-13-01</td>
+                            <td>John Smith</td>
+                            <td>456 USD</td>
+                          </tr>
+                            <tr>
+                                <td scope="row">Hp Pavillion 2015</td>
+                                <td><span class="badge badge-completed"data-toggle="tooltip" data-placement="right" title="Done with transaction">Completed</span></td>
+                                <td>2018-13-01</td>
+                                <td>John Smith</td>
+                                <td>456 USD</td>
+                          </tr>
+                          <tr>
+                            <td scope="row">Hp Pavillion 2015</td>
+                            <td><span class="badge badge-completed"data-toggle="tooltip" data-placement="right" title="Done with transaction">Completed</span></td>
+                            <td>2018-13-01</td>
+                            <td>John Smith</td>
+                            <td>456 USD</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../libraries/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="../libraries/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
